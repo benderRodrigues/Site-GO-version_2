@@ -1,0 +1,184 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+    background: url(../img/Photo_1_B_g.png) no-repeat center top / cover;
+	height: 100vh;
+ }
+
+  /*фиксированное плавающее меню*/
+#top_nav{
+	position: fixed;
+	z-index: 1000;
+	margin-left: 35%;
+	margin-top: 30px;
+}
+
+ul {
+	list-style: none; /*убираем маркеры списка*/
+	margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+	padding-left: 0; /*убираем левый отступ, равный 40px*/
+  }
+  a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 20px;
+	float: left;
+}
+
+/*.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+*/
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+	font-weight: bold;
+}
+
+.menu a {
+	color:red;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.titles__first {
+	font-size: 40px;
+	font-weight: bold;
+	color: yellow;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+
+.button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+.title {
+	padding-top: 115px;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+section {
+	background-color: #fed136;
+}
+
+.Staff {
+	margin-top: 80px;
+}
+
+.Staff__item	{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.Staff__item img {
+	width: 200px;
+	height: 250px;
+}
+
+.Staff__item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.Staff__item p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+.Staff__item:last-child {
+	float: right;
+}
+
+.Staff__item:nth-child(2) {
+	margin-left: 60px;
+}
+
+#Staff {
+	padding-bottom: 120px;
+}
+
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+	text-align: center;
+}
+
+.works {
+	margin-top: 70px;
+}
+
+.works img {
+	text-align: center;
+	width: 200px;
+	height: 250px;
+}
+
+.map {
+	text-align: center;
+
+}
+
+#Contacts {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+footer .container > * {
+	border: 1px solid red;
+}
